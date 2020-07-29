@@ -4,8 +4,8 @@ import java.awt.*;
 
 // abstract class for drawing figures in windows
 abstract class Figure {
-    int x;
-    int y;
+    protected int x;
+    protected int y;
 
     public Figure(int inX, int inY) {
         x = inX;
