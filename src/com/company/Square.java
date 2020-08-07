@@ -1,7 +1,7 @@
 package com.company;
 import java.awt.*;
 
-abstract class Square extends Figure {
+ class Square extends Figure {
 
     private int side;
 
