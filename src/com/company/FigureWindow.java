@@ -32,13 +32,14 @@ public class FigureWindow extends Frame {
     }
 
     //Main method, creates a FigureWindow and a few figures
-    public static void main{String[] args} {
+    public static void main(String[] args) {
         FigureWindow w = new FigureWindow(10);
         w.setSize(400, 300);
         w.addFigure(new Square(50,50,200));
         w.addFigure(new Circle(200,100,150));
         w.addFigure(new Circle(300,200,200));
-        w.show();
+        w.setVisible(true);
+        
 
     }
 }
